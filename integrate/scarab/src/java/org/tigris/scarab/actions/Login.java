@@ -73,6 +73,9 @@ import org.tigris.scarab.om.ScarabUser;
 import org.tigris.scarab.om.Module;
 import org.tigris.scarab.actions.base.ScarabTemplateAction;
 
+// ldaphack stuff
+import org.codepin.ldaphack.*;
+
 /**
  * This class is responsible for dealing with the Login
  * Action.
@@ -155,8 +158,28 @@ public class Login extends ScarabTemplateAction
         try
         {
             // Authenticate the user and get the object.
+            // ...but authenticate by LDAP first  - HACK: ldaphack.ldapauth
+            // The ldaphack.ldapauth.properties file is found in the classpath
+            ldapauth la = new ldapauth("ldaphack.ldapauth.properties");
+            String userLdapDN = la.searchfordn(username);
+            if (userLdapDN != null) {
+                // If found in LDAP, perform a simple ldap bind for authentication
+                Log.get().debug("[ldaphack:DEBUG] User "+ username +" found in LDAP, performing simple LDAP bind.");
+                if (la.bindauthdn(userLdapDN,password)) {
+                    user = (ScarabUser) TurbineSecurity.getUser(username);
+                } else {
+                    // if not authenticated via ldap, cause a PaswordMismatchException
+                    // error to be thrown by purposely setting an invalid password.
+                    // ideally, ldaphack.ldapauth would throw PaswordMismatchException
+                    password = "ksdfjsdwokwlkmdmsd  $$dklsw23  22 93493939!@#$%^&*()";
+                    user = (ScarabUser) TurbineSecurity.getAuthenticatedUser(username, password);
+                }
+            } else {
+                // If not found in LDAP, fall back to Scarab authentication
+                Log.get().debug("[ldaphack:DEBUG] User "+ username +" not found in LDAP, using normal scarab authentication.");
             user = (ScarabUser) TurbineSecurity
                 .getAuthenticatedUser(username, password);
+            }
         }
         catch (UnknownEntityException e)
         {
