@@ -1,0 +1,281 @@
+2005-07-04 19:23:34,695 [main] INFO  org.apache.velocity - ************************************************************** 
+2005-07-04 19:23:34,695 [main] INFO  org.apache.velocity - Starting Jakarta Velocity v1.4
+2005-07-04 19:23:34,695 [main] INFO  org.apache.velocity - RuntimeInstance initializing.
+2005-07-04 19:23:34,695 [main] INFO  org.apache.velocity - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2005-07-04 19:23:34,695 [main] INFO  org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2005-07-04 19:23:34,695 [main] INFO  org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2005-07-04 19:23:34,695 [main] INFO  org.apache.velocity - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2005-07-04 19:23:34,695 [main] INFO  org.apache.velocity - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2005-07-04 19:23:34,705 [main] INFO  org.apache.velocity - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:34,705 [main] INFO  org.apache.velocity - FileResourceLoader : initialization starting.
+2005-07-04 19:23:34,705 [main] INFO  org.apache.velocity - FileResourceLoader : adding path 'd:\desarrollo\SCARAB_1_0_B20\target\scarab\..\..\src\webapp\WEB-INF\templates'
+2005-07-04 19:23:34,705 [main] INFO  org.apache.velocity - FileResourceLoader : initialization complete.
+2005-07-04 19:23:34,705 [main] INFO  org.apache.velocity - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2005-07-04 19:23:34,705 [main] INFO  org.apache.velocity - Default ResourceManager initialization complete.
+2005-07-04 19:23:34,705 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2005-07-04 19:23:34,705 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2005-07-04 19:23:34,715 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2005-07-04 19:23:34,715 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2005-07-04 19:23:34,715 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2005-07-04 19:23:34,846 [main] INFO  org.apache.velocity - Created: 20 parsers.
+2005-07-04 19:23:34,856 [main] INFO  org.apache.velocity - Velocimacro : initialization starting.
+2005-07-04 19:23:34,856 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/GlobalMacros.vm
+2005-07-04 19:23:34,896 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #markup( type ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:34,906 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #CanMakeTransitionForOption( fromValue option issue multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:34,926 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #AllowedTransitionsForOption( attrValue optionFieldName size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:34,966 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attrValueLeafSelect( attrValue optionFieldName size multiple required ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:34,976 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #templateAttrValueLeafSelect( attrValue templAttrValue optionFieldName size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:34,986 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #dependTypeLeafSelect( childIssue type ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:34,996 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attrValueText( attrValue size ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,006 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #templateAttrValueText( attrValue size templAttrValue ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,006 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attrValueHierarchySelect( attrValue optionFieldName size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,006 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attrValueErrorMsg( attrValue fieldName ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,006 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #alert( text ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,016 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #confirm( text ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,016 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #info( text ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,016 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #alert( text ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,016 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #fieldErrorMsg( field br ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,016 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #fieldHint( field ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,016 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #actionMessage( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,016 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #stdIntakeMsg( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,026 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #numericSelect( name first last selected size ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,026 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #booleanCheckbox( booleanField ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,026 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #booleanCheckboxLock( booleanField locked ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,026 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #booleanRadio( booleanField ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,026 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #Radio( field value default ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,026 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #textField( field size ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,026 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #userSelectBox( attrValue size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,026 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #templateUserSelectBox( attrValue templAttrValue size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,036 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #queryTypeSelectBox( query ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,036 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #templateTypeSelectBox( templateInfo ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,036 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #frequencySelectBox( id ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,046 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #indexedRows( count ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,046 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #indexedRows2( count ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,046 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #rows( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,046 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #datatitle( title ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,046 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selected( boolean ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,046 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #checked( boolean ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,046 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #option( optionModel ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,046 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #resultsPerPageRadioSelect( resultsPerPage showAll ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,046 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #paginate( resultsPerPage pageNum sortColumn sortPolarity ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,056 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #paginateIssueList( resultsPerPage pageNum sortColumn sortPolarity searchType ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,066 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #paginateWithSearch( resultsPerPage pageNum sortColumn sortPolarity searchString searchField parameters ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,066 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #navigate( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,066 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #processQueryResults( action listSize ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,076 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #exportFormats( action ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,076 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #exportFormatsRow( paramName format ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,076 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #textAreaSmall( key value ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,076 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #textAreaMedium( key value ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,076 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #textAreaLarge( key value ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,076 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attributeCreatedBy( attribute ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,086 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #userSort( shortName longName linkPage parameters ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,086 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #sort( shortName longName ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,086 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #sortWithSearch( shortName longName searchString searchField ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,166 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #printCollisionInfo( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,166 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #asterisk( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,166 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #showAsterisk( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,166 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #userList( mitList includeAny includeCommittedBy parameters activeOnly ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,166 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectDay( defaultDay ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,166 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectHour( defaultHour ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,166 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #printMonth( i name defaultMonth ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,176 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectMonth( defaultMonth ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,176 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectYear( currentYear defaultYear ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,176 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectYear2( minYear maxYear defaultYear ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,176 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #dateEntry( yearField currentYear selectedYear monthField selectedMonth dayField selectedDay hourField selectedHour ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,186 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #entryTemplateAndAttributes( issue moduleAttributeGroups buttonName buttonEvent showTemplates ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,226 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,226 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,226 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,236 [main] ERROR org.apache.velocity - VM #textAreaMedium: error : too few arguments to macro. Wanted 2 got 0
+2005-07-04 19:23:35,236 [main] ERROR org.apache.velocity - VM #textAreaMedium: error : too few arguments to macro. Wanted 2 got 0
+2005-07-04 19:23:35,236 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,296 [main] ERROR org.apache.velocity - VM #selectYear2: error : too few arguments to macro. Wanted 3 got 0
+2005-07-04 19:23:35,326 [main] INFO  org.apache.velocity - ResourceManager : found macros/GlobalMacros.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,326 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,326 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/ViewIssueMacro.vm
+2005-07-04 19:23:35,326 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #mimeTypeOptions( mimeA ) : source = macros/ViewIssueMacro.vm
+2005-07-04 19:23:35,326 [main] INFO  org.apache.velocity - ResourceManager : found macros/ViewIssueMacro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,326 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,326 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/AdvancedQueryMacro.vm
+2005-07-04 19:23:35,326 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #advancedQueryFunctionBar( cssClass ) : source = macros/AdvancedQueryMacro.vm
+2005-07-04 19:23:35,346 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #advancedQuery( includeButtons ) : source = macros/AdvancedQueryMacro.vm
+2005-07-04 19:23:35,346 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #queryAttributesSection( search optionsOnly headerLevel ) : source = macros/AdvancedQueryMacro.vm
+2005-07-04 19:23:35,356 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attributeWidget( attVal ) : source = macros/AdvancedQueryMacro.vm
+2005-07-04 19:23:35,356 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attrValueCommonSelect( search attrValue optionFieldName size multiple ) : source = macros/AdvancedQueryMacro.vm
+2005-07-04 19:23:35,356 [main] ERROR org.apache.velocity - VM #queryAttributesSection: error : too few arguments to macro. Wanted 3 got 0
+2005-07-04 19:23:35,376 [main] ERROR org.apache.velocity - VM #attributeWidget: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,376 [main] ERROR org.apache.velocity - VM #attributeWidget: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,376 [main] ERROR org.apache.velocity - VM #attrValueCommonSelect: error : too few arguments to macro. Wanted 5 got 0
+2005-07-04 19:23:35,386 [main] INFO  org.apache.velocity - ResourceManager : found macros/AdvancedQueryMacro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,386 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,386 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/MITListMacro.vm
+2005-07-04 19:23:35,386 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #showMITList( header user showButton ) : source = macros/MITListMacro.vm
+2005-07-04 19:23:35,406 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #createMITList( event buttonName user screenTemplate displayText ) : source = macros/MITListMacro.vm
+2005-07-04 19:23:35,406 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #prepRMITPageLink( screenTemplate ) : source = macros/MITListMacro.vm
+2005-07-04 19:23:35,406 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #paginateXModuleList( screenTemplate ) : source = macros/MITListMacro.vm
+2005-07-04 19:23:35,406 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #prepRMITLink( sortKey screenTemplate ) : source = macros/MITListMacro.vm
+2005-07-04 19:23:35,416 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #rmitSort( shortName longName screenTemplate ) : source = macros/MITListMacro.vm
+2005-07-04 19:23:35,416 [main] ERROR org.apache.velocity - VM #paginateXModuleList: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,416 [main] ERROR org.apache.velocity - VM #rmitSort: error : too few arguments to macro. Wanted 3 got 0
+2005-07-04 19:23:35,416 [main] ERROR org.apache.velocity - VM #rmitSort: error : too few arguments to macro. Wanted 3 got 0
+2005-07-04 19:23:35,416 [main] ERROR org.apache.velocity - VM #paginateXModuleList: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,426 [main] INFO  org.apache.velocity - ResourceManager : found macros/MITListMacro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,426 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,426 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/ReportMacro.vm
+2005-07-04 19:23:35,426 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #reportFunctionBar( cssClass report ) : source = macros/ReportMacro.vm
+2005-07-04 19:23:35,426 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #reportScopeSelectBox( reportGroup ) : source = macros/ReportMacro.vm
+2005-07-04 19:23:35,426 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attributeOptionOptionList( optionList selectOptions ) : source = macros/ReportMacro.vm
+2005-07-04 19:23:35,426 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #reportLabel( model cellLabel singleAttribute ) : source = macros/ReportMacro.vm
+2005-07-04 19:23:35,436 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #reportTable( model ) : source = macros/ReportMacro.vm
+2005-07-04 19:23:35,436 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #wizardLinks( template reportParameters link ) : source = macros/ReportMacro.vm
+2005-07-04 19:23:35,446 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #subWizardLinks( template params link option1 template1 option2 template2 ) : source = macros/ReportMacro.vm
+2005-07-04 19:23:35,446 [main] INFO  org.apache.velocity - ResourceManager : found macros/ReportMacro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,446 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,446 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/SavedQueriesMacro.vm
+2005-07-04 19:23:35,446 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #savedQueries( ) : source = macros/SavedQueriesMacro.vm
+2005-07-04 19:23:35,446 [main] INFO  org.apache.velocity - ResourceManager : found macros/SavedQueriesMacro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,446 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,446 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/XMLImportIssuesResultsMacro.vm
+2005-07-04 19:23:35,457 [main] INFO  org.apache.velocity - ResourceManager : found macros/XMLImportIssuesResultsMacro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,457 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,457 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/XMLExportIssuesMacro.vm
+2005-07-04 19:23:35,457 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attachment( attachment ) : source = macros/XMLExportIssuesMacro.vm
+2005-07-04 19:23:35,467 [main] INFO  org.apache.velocity - ResourceManager : found macros/XMLExportIssuesMacro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,467 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,467 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/XMLExportSettingsMacro.vm
+2005-07-04 19:23:35,477 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #XMLExportSettingsRender( foo ) : source = macros/XMLExportSettingsMacro.vm
+2005-07-04 19:23:35,477 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #XMLExportSettings( ) : source = macros/XMLExportSettingsMacro.vm
+2005-07-04 19:23:35,617 [main] INFO  org.apache.velocity - ResourceManager : found macros/XMLExportSettingsMacro.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,617 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,617 [main] INFO  org.apache.velocity - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2005-07-04 19:23:35,617 [main] INFO  org.apache.velocity - Velocimacro : allowInlineToOverride = true : VMs defined inline may replace previous VM definitions
+2005-07-04 19:23:35,617 [main] INFO  org.apache.velocity - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2005-07-04 19:23:35,617 [main] INFO  org.apache.velocity - Velocimacro : messages on  : VM system will output logging messages
+2005-07-04 19:23:35,617 [main] INFO  org.apache.velocity - Velocimacro : autoload on  : VM system will automatically reload global library macros
+2005-07-04 19:23:35,617 [main] INFO  org.apache.velocity - Velocimacro : initialization complete.
+2005-07-04 19:23:35,617 [main] INFO  org.apache.velocity - Velocity successfully started.
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - ************************************************************** 
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Starting Jakarta Velocity v1.4
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - RuntimeInstance initializing.
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Default Properties File: org\apache\velocity\runtime\defaults\velocity.properties
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.AvalonLogSystem
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Trying to use logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Using logger class org.apache.velocity.runtime.log.SimpleLog4JLogSystem
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Default ResourceManager initializing. (class org.apache.velocity.runtime.resource.ResourceManagerImpl)
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Resource Loader Instantiated: org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - FileResourceLoader : initialization starting.
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - FileResourceLoader : adding path 'd:\desarrollo\SCARAB_1_0_B20\target\scarab\..\..\src\webapp\WEB-INF\templates'
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - FileResourceLoader : initialization complete.
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - ResourceCache : initialized. (class org.apache.velocity.runtime.resource.ResourceCacheImpl)
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Default ResourceManager initialization complete.
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Literal
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Macro
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Parse
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Include
+2005-07-04 19:23:35,637 [main] INFO  org.apache.velocity - Loaded System Directive: org.apache.velocity.runtime.directive.Foreach
+2005-07-04 19:23:35,647 [main] INFO  org.apache.velocity - Created: 20 parsers.
+2005-07-04 19:23:35,647 [main] INFO  org.apache.velocity - Velocimacro : initialization starting.
+2005-07-04 19:23:35,647 [main] INFO  org.apache.velocity - Velocimacro : adding VMs from VM library template : macros/GlobalMacros.vm
+2005-07-04 19:23:35,647 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #markup( type ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,657 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #CanMakeTransitionForOption( fromValue option issue multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,657 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #AllowedTransitionsForOption( attrValue optionFieldName size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,667 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attrValueLeafSelect( attrValue optionFieldName size multiple required ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,667 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #templateAttrValueLeafSelect( attrValue templAttrValue optionFieldName size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,667 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #dependTypeLeafSelect( childIssue type ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,677 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attrValueText( attrValue size ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,677 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #templateAttrValueText( attrValue size templAttrValue ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,687 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attrValueHierarchySelect( attrValue optionFieldName size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,687 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attrValueErrorMsg( attrValue fieldName ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,687 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #alert( text ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,687 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #confirm( text ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,687 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #info( text ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,687 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #alert( text ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,687 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #fieldErrorMsg( field br ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #fieldHint( field ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #actionMessage( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #stdIntakeMsg( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #numericSelect( name first last selected size ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #booleanCheckbox( booleanField ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #booleanCheckboxLock( booleanField locked ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #booleanRadio( booleanField ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #Radio( field value default ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #textField( field size ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #userSelectBox( attrValue size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #templateUserSelectBox( attrValue templAttrValue size multiple ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #queryTypeSelectBox( query ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #templateTypeSelectBox( templateInfo ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,697 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #frequencySelectBox( id ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #indexedRows( count ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #indexedRows2( count ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #rows( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #datatitle( title ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selected( boolean ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #checked( boolean ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #option( optionModel ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #resultsPerPageRadioSelect( resultsPerPage showAll ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #paginate( resultsPerPage pageNum sortColumn sortPolarity ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #paginateIssueList( resultsPerPage pageNum sortColumn sortPolarity searchType ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,707 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #paginateWithSearch( resultsPerPage pageNum sortColumn sortPolarity searchString searchField parameters ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #navigate( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #processQueryResults( action listSize ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #exportFormats( action ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #exportFormatsRow( paramName format ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #textAreaSmall( key value ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #textAreaMedium( key value ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #textAreaLarge( key value ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #attributeCreatedBy( attribute ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #userSort( shortName longName linkPage parameters ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,717 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #sort( shortName longName ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,727 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #sortWithSearch( shortName longName searchString searchField ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,727 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #printCollisionInfo( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,727 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #asterisk( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,727 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #showAsterisk( ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,727 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #userList( mitList includeAny includeCommittedBy parameters activeOnly ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,727 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectDay( defaultDay ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,727 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectHour( defaultHour ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,727 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #printMonth( i name defaultMonth ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,737 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectMonth( defaultMonth ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,737 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectYear( currentYear defaultYear ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,737 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #selectYear2( minYear maxYear defaultYear ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,737 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #dateEntry( yearField currentYear selectedYear monthField selectedMonth dayField selectedDay hourField selectedHour ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,737 [main] INFO  org.apache.velocity - Velocimacro : added new VM : #entryTemplateAndAttributes( issue moduleAttributeGroups buttonName buttonEvent showTemplates ) : source = macros/GlobalMacros.vm
+2005-07-04 19:23:35,757 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,757 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,757 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,757 [main] ERROR org.apache.velocity - VM #textAreaMedium: error : too few arguments to macro. Wanted 2 got 0
+2005-07-04 19:23:35,757 [main] ERROR org.apache.velocity - VM #textAreaMedium: error : too few arguments to macro. Wanted 2 got 0
+2005-07-04 19:23:35,757 [main] ERROR org.apache.velocity - VM #selected: error : too few arguments to macro. Wanted 1 got 0
+2005-07-04 19:23:35,807 [main] ERROR org.apache.velocity - VM #selectYear2: error : too few arguments to macro. Wanted 3 got 0
+2005-07-04 19:23:35,827 [main] INFO  org.apache.velocity - ResourceManager : found macros/GlobalMacros.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:35,827 [main] INFO  org.apache.velocity - Velocimacro :  VM library template macro registration complete.
+2005-07-04 19:23:35,827 [main] INFO  org.apache.velocity - Velocimacro : allowInline = true : VMs can be defined inline in templates
+2005-07-04 19:23:35,827 [main] INFO  org.apache.velocity - Velocimacro : allowInlineToOverride = true : VMs defined inline may replace previous VM definitions
+2005-07-04 19:23:35,827 [main] INFO  org.apache.velocity - Velocimacro : allowInlineLocal = false : VMs defined inline will be  global in scope if allowed.
+2005-07-04 19:23:35,827 [main] INFO  org.apache.velocity - Velocimacro : messages on  : VM system will output logging messages
+2005-07-04 19:23:35,827 [main] INFO  org.apache.velocity - Velocimacro : autoload off  : VM system will not automatically reload global library macros
+2005-07-04 19:23:35,827 [main] INFO  org.apache.velocity - Velocimacro : initialization complete.
+2005-07-04 19:23:35,827 [main] INFO  org.apache.velocity - Velocity successfully started.
+2005-07-04 19:23:36,849 [main] INFO  org.apache.velocity - ResourceManager : found email/ModifyIssue.vm with loader org.apache.velocity.runtime.resource.loader.FileResourceLoader
+2005-07-04 19:23:36,859 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,859 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,889 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] WARN  org.apache.velocity - org.apache.velocity.runtime.exception.ReferenceException: reference : template = email/ModifyIssue.vm [line 10,column 30] : $issue.DefaultTextAttributeValue.RModuleAttribute.DisplayValue is not a valid reference.
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
+2005-07-04 19:23:36,899 [main] ERROR org.apache.velocity - RHS of #set statement is null. Context will not be modified. email/ModifyIssue.vm [line 1, column 1]
