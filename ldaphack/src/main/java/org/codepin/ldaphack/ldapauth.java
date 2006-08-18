@@ -30,6 +30,8 @@ import java.util.*;
  *        if (la.bindauthdn(userDN,password) {
  *            userObject = getUserObject(username);
  *            System.out.println("You are authorized via LDAP");
+ *        } else {
+ *            System.out.println("You are not authorized via LDAP");
  *            exit(1);
  *        }
  *    } else if (isAuthenticatedUser(username,password) {
