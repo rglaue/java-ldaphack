@@ -1,0 +1,694 @@
+
+targetdatabase = mysql
+dbprops.idMethod = $dbprops.get("idMethod")
+# Taken from java.sql.Types in the IBM 1.3 JDK
+# JDBC to MySQL mappings.
+#
+# A good MySQL resource for determining these mappings is at
+# http://www.mysql.com/doc/C/o/Column_types.html
+
+BIT = BIT
+TINYINT = TINYINT
+SMALLINT = SMALLINT
+INTEGER = INTEGER
+BIGINT = BIGINT
+FLOAT = FLOAT
+REAL = REAL
+DOUBLE = DOUBLE
+NUMERIC = DECIMAL
+DECIMAL = DECIMAL
+CHAR = CHAR
+VARCHAR = VARCHAR
+LONGVARCHAR = MEDIUMTEXT
+DATE = DATETIME
+TIME = TIME
+TIMESTAMP = TIMESTAMP
+BINARY = BLOB
+VARBINARY = MEDIUMBLOB
+LONGVARBINARY = LONGBLOB
+NULL = NULL
+OTHER =
+JAVA_OBJECT =
+DISTINCT =
+STRUCT =
+ARRAY =
+BLOB = LONGBLOB
+CLOB = LONGTEXT
+REF =
+
+AUTOINCREMENT = AUTO_INCREMENT
+NOTNULL = NOT NULL
+ 
+removeNotNullWithAutoIncrement = false
+suppressDefaults = false
+maxColumnNameLength = 64
+
+
+# See mysql docs for valid table type names.
+# For example, if you wanted to use the transactional type InnoDB,
+# then specify "tableType = InnoDB"
+#tableType = MyISAM
+
+  
+        
+    
+    org.tigris.scarab.om
+    org.tigris.scarab.om
+    org.tigris.scarab.om.map
+
+        Failed to create dir or dir already exists: D:\desarrollo\SCARAB_1_0_B20\src\java/org\tigris\scarab\om\
+
+        Failed to create dir or dir already exists: D:\desarrollo\SCARAB_1_0_B20\src\java/org\tigris\scarab\om\map\
+
+        Failed to create dir or dir already exists: D:\desarrollo\SCARAB_1_0_B20\src\java/org\tigris\scarab\om\
+
+                  SCARAB_ACTIVITY
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ATTACHMENT
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ATTACHMENT_TYPE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ATTRIBUTE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_CONDITION
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ATTRIBUTE_GROUP
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_R_ATTRIBUTE_ATTRGROUP
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ATTRIBUTE_CLASS
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ATTRIBUTE_OPTION
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_OPTION_RELATIONSHIP
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ATTRIBUTE_TYPE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_DEPEND
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_DEPEND_TYPE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ISSUE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ISSUE_TYPE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_R_MODULE_ISSUE_TYPE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_MIT_LIST
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_MIT_LISTITEM
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ISSUE_ATTRIBUTE_VALUE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                                  SCARAB_MODIFICATION
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_MODULE
+        
+                
+
+                  
+        
+                            
+                    
+
+                                  
+                  
+        
+                
+                
+                          
+                                                                                                  SCARAB_R_MODULE_ATTRIBUTE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_R_ISSUETYPE_ATTRIBUTE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_R_MODULE_OPTION
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_R_ISSUETYPE_OPTION
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_R_OPTION_OPTION
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_R_MODULE_USER_ATTRIBUTE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_TRANSACTION
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_TRANSACTION_TYPE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                TURBINE_USER
+        
+                
+
+        
+                            
+                    
+
+                                  
+                  
+        
+                
+                
+                          
+                                SCARAB_USER_PREFERENCE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_USER_VOTE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ISSUE_VOTE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_QUERY
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_R_QUERY_USER
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_FREQUENCY
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_ISSUE_TEMPLATE_INFO
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_SCOPE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_REPORT
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_PENDING_GROUP_USER_ROLE
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_GLOBAL_PARAMETER
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                                SCARAB_TRANSITION
+        
+                
+
+                  
+        
+                  
+                    
+
+                                  
+                  
+        
+                
+                
+        
+                    
