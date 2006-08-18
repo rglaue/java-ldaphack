@@ -4,7 +4,7 @@
   <groupId>org.codepin.ldaphack</groupId>
   <artifactId>ldaphack</artifactId>
   <packaging>jar</packaging>
-  <version>0.01.00</version>
+  <version>0.01.001</version>
   <name>Maven Quick Start Archetype</name>
   <url>http://maven.apache.org</url>
   <dependencies>

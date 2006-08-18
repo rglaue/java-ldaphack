@@ -1,5 +1,62 @@
 package org.codepin.ldaphack;
 
+/* ====================================================================
+ * Copyright (c) 2006 Center for the Application of Information
+ * Technologies, Western Illinois University.  All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in
+ *    the documentation and/or other materials provided with the
+ *    distribution.
+ *
+ * 3. The end-user documentation included with the redistribution,
+ *    if any, must include the following acknowledgment:
+ *      "This product includes software developed by Center for the
+ *       Application of Information Technologies, Western Illinois
+ *       University (http://www.cait.org)."
+ *    Alternately, this acknowledgment may appear in the software itself,
+ *    if and wherever such third-party acknowledgments normally appear.
+ *
+ * 4. The names "CAIT", "Center for the Application for Informtaion
+ *    Technologies", "WIU", "Western Illinois University", "CodePin" and
+ *    the names of CodePin hosted projects must not be used to endorse or
+ *    promote products derived from this software without prior written
+ *    permission. For written permission, please contact info@cait.org.
+ *
+ * 5. Products derived from this software may not use the names "CodePin",
+ *    "CodePin LDAP Hack", nor may "CodePin" appear in their name, without
+ *    prior written permission of Center for the Application of Information
+ *    Technologies, Western Illinois University.
+ *
+ * THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED
+ * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED.  IN NO EVENT SHALL THE APACHE SOFTWARE FOUNDATION OR
+ * ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ * SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ * LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF
+ * USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ * ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+ * OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ * ====================================================================
+ *
+ * This software consists of voluntary contributions made by many
+ * individuals on behalf of Center for the Application for Information
+ * Technologies, Western Illinois University.  For more information on
+ * the Center for the Application for Information Technologies, please
+ * see <http://www.cait.org/>. For more information on Western Illinois
+ * University, please see <http://www.wiu.edu>.
+ */
+ 
 import javax.naming.*;
 import javax.naming.directory.*;
 import javax.naming.ldap.*;
@@ -19,7 +76,7 @@ import java.util.*;
  *        System.out.println("You are authorized");
  *    } else {
  *        System.out.println("You are not authorized!");
- *        exit(1);
+ *        System.exit(1);
  *    }
  *
  *   // code after integrating hack (assumes you created properties file, see {@link ldapauth#ldapauth(String)}):
@@ -32,7 +89,7 @@ import java.util.*;
  *            System.out.println("You are authorized via LDAP");
  *        } else {
  *            System.out.println("You are not authorized via LDAP");
- *            exit(1);
+ *            System.exit(1);
  *        }
  *    } else if (isAuthenticatedUser(username,password) {
  *        // else authenticate via the application if not found in LDAP
@@ -40,7 +97,7 @@ import java.util.*;
  *        System.out.println("You are authorized");
  *    } else {
  *        System.out.println("You are not authorized!");
- *        exit(1);
+ *        System.exit(1);
  *    }
  * </pre></code>
  * @author Russell E Glaue
@@ -214,6 +271,7 @@ public class ldapauth {
         setProviderUrl(this.properties.getProperty("ProviderUrl"));
         setSearchFilter(this.properties.getProperty("SearchFilter"));
         setBaseDN(this.properties.getProperty("BaseDN"));
+        setAuthAttribute(this.properties.getProperty("AuthAttr","uid"));
         setAllowEmptyPassword( new Boolean(this.properties.getProperty("AllowEmptyPassword","false")).booleanValue() );
         setDEBUG( new Boolean(this.properties.getProperty("DEBUG","false")).booleanValue() );
     }
@@ -660,9 +718,11 @@ public class ldapauth {
     }
 
 
-    //
-    // Some String-Management functions
-    //
+    /**
+     * Some String-Management functions
+     * Reference: http://www.happycodings.com/ (August, 2006)
+     * http://www.java.happycodings.com/Java_Util_Package/code27.html
+     */
 
 
     /**
